@@ -1,0 +1,73 @@
+!!! Strict
+%html
+  %head
+    %title= "ToDoneIt - #{session[:title]}"
+    %meta{:"http-equiv" => "Content-Type", :content => "text/html; charset=utf-8"}/
+    %link{:rel => "stylesheet", :href => "/css/reset.css", :type => "text/css"}/
+    %link{:rel => "stylesheet", :href => "/css/main.css", :type => "text/css"}/
+    %link{:rel => "stylesheet", :href => "/css/timeline.css", :type => "text/css"}/
+    %script{:src => "/js/jquery-1.3.2.js", :type => "text/javascript"}
+    %script{:src => "/js/todoneit.js", :type => "text/javascript"}
+    %script{:src => "/js/jquery.simpletip-1.3.1.min.js", :type => "text/javascript"}
+
+  %body(class="#{logged_in? ? "logged_in" : nil}")
+    #header
+      #navigation
+       
+        %ul
+          - if logged_in?
+            %li.username
+              %a(href="/users/#{current_user}") #{current_user}
+            %li
+              %a(href="/tasks/new") New
+            %li
+              %a(href="/logout") Logout
+          - else
+            %li
+              %a(href="/") Home
+            %li
+              %a(href="/tasks/new") New
+            %li
+              %a(href="/signup") Sign up
+            %li
+              %a(href="/login") Login
+      #title
+        %a(href="/")
+          To
+          %span done
+          it
+          %span .
+    #content
+
+      - if session[:notice] != nil and not session[:notice].empty?
+        %p.notice= session[:notice]
+        - session[:notice] = ''
+
+      #menu{:style => "display:none"}
+        %div.totalSelected
+          %span
+            0
+          selected
+        %ul.actions
+          %li.promote Raise priority
+          %li.relegate Lower priority
+          %li.delete Delete
+          %li.complete
+            %a Complete
+
+      %h1 
+        =session[:title]
+        - if logged_in?
+          %form{:action => "/tasks/new", :method => "post", :id => "quickadd", :name => "quickadd"}
+            %label
+              Forgot something?
+              %input.helptext{:value => "Describe a task here", :name => "task[description]", :id => "task[description]"}/
+            %input{:value => "tomorrow", :name => "task[due_at]", :type => "hidden"}/
+
+      != yield
+
+    :javascript
+      $(document).ready(function() {
+      ToDoneIt.QuickAdd.onLoad();
+      ToDoneIt.onLoad();
+      });

@@ -1,0 +1,30 @@
+%h1
+  Sign up here
+
+- errors_on @user do |error|
+  - error.on [:username, :not_present], "Mind providing a username?"
+  - error.on [[:username], :not_unique] do
+    %li
+      = "Someone else owns the username “#{@user.username}”."
+      %a(href="/login?username=#{@user.username}") Maybe it's you?
+  - error.on [:password, :not_present], "We won't be able to authenticate you if you don't provide a password."
+  - error.on [:email_address, :not_unique], "Looking into my crystal ball I detect that you have already registered. Try and remember your password."
+
+%form(action="/signup" method="post")
+  %p
+    %label(for="user_username") Choose a username
+    %br
+    %input(type="text" name="user[username]" id="user_username" value="#{@user.username}")/
+
+  %p
+    %label(for="user_email_address") enter your email address
+    %br
+    %input(type="text" name="user[email_address]" id="user_email_address" value="#{@user.email_address}")/
+
+  %p
+    %label(for="user_password") And a password
+    %br
+    %input(type="password" name="user[password]" id="user_password")/
+
+  %p
+    %input(type="submit" value="Sign up")/

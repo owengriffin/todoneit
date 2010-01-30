@@ -1,0 +1,24 @@
+- @title = @user
+
+#delete
+  %a(href="/users/#{@user.username}/delete")
+    Delete my account
+  
+
+%img(src="#{@user.avatar}")
+
+#grid
+
+  != list("Tasks incomplete #{@user}", @todo)
+  != list("Completed tasks #{@user}",  @completed)
+  != list("All tasks #{@user}",  @all)
+
+  .list.just_added
+    %h2 Profile information
+    %ul
+      %li
+        %span.votes= @completed.size
+        Tasks completed
+      %li
+        %span.votes= @todo.size
+        Tasks todo

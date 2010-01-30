@@ -1,0 +1,10 @@
+- @title = @user
+
+#confirmation
+  %form(action="/users/#{@user.username}/delete" method="post")
+    %label(for="confirm") 
+      %span Are you sure you want to delete your account? This will remove all you've ever achieved in 
+      %span.life life
+      %span todoneit.  
+    %input(type="checkbox" name="confirm" value="#{false}")
+    %input(type="submit" value="Just, do it - don't taunt me.")

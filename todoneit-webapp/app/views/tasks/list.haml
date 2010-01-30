@@ -1,0 +1,13 @@
+.task-list{:class => title.downcase.gsub(" ", "_")}
+  %div.expand +
+  %h2= title
+
+  - if tasks != nil and not tasks.empty?
+    %ul
+      - tasks.each do |task|
+        %li{:class => (task.due_at.to_time < Time.new ? "past" : "upcoming") + " " + (task.complete? ? "complete" : "incomplete" + " task")}
+          %div.task-wrapper
+            %span.description= task.description
+  - else
+    %p.empty
+      = message

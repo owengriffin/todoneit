@@ -1,0 +1,50 @@
+%h1 Create a new task
+
+- errors_on @task do |error|
+  - error.on [:description, :not_present], "The field “Description” is mandatory."
+  - error.on [:public, :not_present], "The field “URL” is mandatory."
+  - error.on [:author, :not_numeric], "We couldn't find a user with the information provided."
+
+%form(action="/tasks/new" method="post")
+
+  %p
+    %label(for="task_due_at") Due at:
+    %span.example eg: tommorrow at 5 past three
+    %br
+    %input(name="task[due_at]" id="task_due_at" value="#{@task.due_at}")
+
+  %p
+    %label(for="task_public") Make this public?
+    %br
+    %input(name="task[public]" id="task_public" checked="#{@task.public}" type="checkbox")
+
+  %p
+    %label(for="task_description") Describe it
+    %span.example in 40 characters or less
+    %br
+    %input(name="task[description]" id="task_description" value="#{@task.description}" maxlength=40)
+
+  - unless logged_in?
+    %fieldset
+      %legend Have we met?
+
+      %p
+        %input(type="radio" name="session[existing]" id="session_existing_yes" value=1 checked=true)
+        %label(for="session_existing_yes") I'm already registered
+
+        %input(type="radio" name="session[existing]" id="session_existing_no" value=0)
+        %label(for="session_existing_no") I'm new here
+
+      %p
+        %label(for="session_username") Your username
+        %br
+        %input(type="text" name="session[username]" id="session_username")
+
+      %p
+        %label(for="session_password") Your password
+        %br
+        %input(type="text" name="session[password]" id="session_password")
+
+  %p
+    %button(type="submit")
+      Add

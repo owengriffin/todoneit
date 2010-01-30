@@ -1,0 +1,247 @@
+.col4
+  .col4_c4
+    overflow: hidden
+  .col4_c4, .col4_c3, .col4_c2, .col4_c1
+    float: left    
+    width: 100%
+  .col4_c4, .col4_c3, .col4_c2
+    clear: left
+  .col4_c3, .col4_c2, .col4_c1
+    position: relative
+    right: 25%
+  .col4_1, .col4_2, .col4_3, .col4_4
+    float: left
+    overflow: hidden
+    position: relative
+    width: 21%
+  .col4_1
+    left: 77%
+  .col4_2
+    left: 81%
+  .col4_3
+    left: 85%
+  .col4_4
+    left: 89%
+
+.col5
+  .col5_c5, .col5_c4, .col5_c2, .col5_c1
+    float: left
+    width: 100%
+  .col5_c5, .col5_c4, .col5_c3, .col5_c2
+    clear: left
+  .col5_c5
+    overflow: hidden
+  .col5_c4, .col5_c3, .col5_c2, .col5_c1
+    right: 20%
+    position: relative
+  .col5_1, .col5_2, .col5_3, .col5_4, .col5_5
+    float: left
+    overflow: hidden
+    position: relative
+    width: 16%
+  .col5_1
+    left: 82%
+  .col5_2
+    left: 86%
+  .col5_3
+    left: 90%
+  .col5_4
+    left: 94%  
+  .col5_5
+    left: 98%
+
+
+body
+  background-color: white
+  font-family: "Lucida Grande", sans-serif
+
+#content
+  padding: 15px
+  color: #333
+  font-size: 0.8em
+  background: url('/images/gradient.png') repeat-x
+  p.notice
+    text-align: center
+    background-color: #fd5
+    padding: 0.5em
+    margin: 1em auto
+    font-weight: bold
+    width: 30%
+    -moz-border-radius: 0.5em
+    -webkit-border-radius: 0.5em
+
+=clearfix
+  *display:     inline-block
+  &:after
+    content:    " "
+    display:    block
+    height:     0
+    clear:      both
+    visibility: hidden
+
+.clear
+  clear: both
+  width: 100%
+  font-size: 0px
+
+= title
+  font-family: "Helvetica", sans-serif
+  font-size: 2em
+  font-weight: bold
+  text-transform: lowercase
+
+h1, h2
+  font-family: serif
+
+h1
+  font-size: 2em
+
+h2
+  font-size: 1.4em
+
+form
+  > p
+    label
+      +title
+
+    input
+      font-size: 2em
+      margin: 5px 0 0 0
+
+  p
+    margin: 10px 0
+
+  fieldset
+    border-width: 0
+    padding: 0
+    margin: 20px 0
+
+    legend
+      +title
+
+  span.example
+    color: #777
+
+#header
+  background-color: #222
+  border-bottom: 2px solid #000
+  color: #ccc
+  padding: 0.5em
+  #title
+    a
+      color: #fff
+    font-family: serif
+    font-size: 1.5em
+    span
+      font-weight: bold
+      margin: auto -0.3em
+  #navigation
+    float: right
+    font-size: 0.8em
+    form
+      display: inline
+      input
+        display: inline
+      input.helptext
+        color: #ddd
+    ul
+      display: inline
+      li
+        display: inline
+        a
+          color: #fc0
+      li.username
+        padding-right: 0.2em
+        margin-right: 0.4em
+        a
+          color: #ddd
+
+.hidden
+  display: none
+
+.task-list
+  p.empty
+    color: #888
+    font-size: 0.8em
+    margin: 1em 0
+    line-height: 1.5em
+  .task-wrapper
+    border: 1px solid #ddd
+    -moz-border-radius: 0.5em
+    -webkit-border-radius: 0.5em
+    font-size: 0.8em
+    line-height: 1.2em
+    min-height: 2.5em
+    margin: 0.5em 0
+    padding: 0.5em 
+  .incomplete .task-wrapper
+    border: 1px solid #d00
+  .upcoming .task-wrapper
+    border: 1px solid #ddd
+  .complete .task-wrapper
+    color: #ddd
+    .description
+      text-decoration: line-through
+  .selected .task-wrapper
+    border: 2px solid #fd5
+
+#menu
+  position: absolute
+  bottom: 0
+  right: 0
+  padding: 0.5em 0
+  border-top: 1px solid #ddd
+  z-index: 300000
+  background: url('/images/gradient_reverse.png') repeat-x bottom
+  width: 100%
+  div
+    display: inline
+    padding-left: 10px
+  ul
+    display: inline
+    float: right
+    margin: 0 1em 0 0
+    li
+      display: inline
+      border-right: 1px solid #222
+      line-height: 0.5em
+      padding: 0 0.6em
+      cursor: pointer
+      &:LAST-CHILD
+        border-right: 0
+      &.hover
+        text-decoration: underline
+      &.promote, &.relegate
+        padding-left: 22px
+      &.complete, &.delete
+        padding-left: 17px
+      &.promote
+        background: url("/images/promote.png") no-repeat
+      &.complete
+        background: url("/images/complete.png") no-repeat
+        &.hover
+          background: url("/images/complete_hover.png") no-repeat
+      &.relegate
+        background: url("/images/relegate.png") no-repeat
+      &.delete
+        background: url("/images/delete.png") no-repeat
+        &.hover
+          background: url("/images/delete_hover.png") no-repeat
+
+.tooltip
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 300000
+  display: none
+  background: #ddd
+  border: 1px solid #ddd
+  -moz-border-radius: 5px
+  padding: 0.5em
+  font-size: 0.7em
+
+#quickadd
+  float: right
+  label
+    font-size: 0.5em
+    font-weight: normal

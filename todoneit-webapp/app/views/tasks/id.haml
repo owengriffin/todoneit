@@ -1,0 +1,18 @@
+- @title = @task
+
+#task
+
+  %h1= @task
+
+  %p.url
+    %a(href=@url title=@url)= @url
+
+  %p
+    Submitted by
+    %a(href="/users/#{@author}") #{@author}
+    on
+    %a(href="/?date=#{@task.date}") #{@task.completed_at}
+
+  %p
+    %span.votes= @task.status
+    status?
