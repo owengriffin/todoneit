@@ -213,7 +213,7 @@ form
   padding: 0.5em 0
   border-top: 1px solid #ddd
   z-index: 300000
-  background: url('/images/gradient_reverse.png') repeat-x bottom
+  background: #fff url('/images/gradient_reverse.png') repeat-x bottom
   width: 100%
   div
     display: inline
@@ -228,8 +228,10 @@ form
       line-height: 0.5em
       padding: 0 0.6em
       cursor: pointer
+      margin-right: 10px
       &:LAST-CHILD
         border-right: 0
+        margin-right: 0
       &.hover
         text-decoration: underline
       &.promote, &.relegate
@@ -238,12 +240,16 @@ form
         padding-left: 17px
       &.promote
         background: url("/images/promote.png") no-repeat
+        &.hover
+          background: url("/images/promote_hover.png") no-repeat
       &.complete
         background: url("/images/complete.png") no-repeat
         &.hover
           background: url("/images/complete_hover.png") no-repeat
       &.relegate
         background: url("/images/relegate.png") no-repeat
+        &.hover
+          background: url("/images/relegate_hover.png") no-repeat
       &.delete
         background: url("/images/delete.png") no-repeat
         &.hover
