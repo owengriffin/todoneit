@@ -9,18 +9,12 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Owen Griffin"]
-  s.date = %q{2010-01-26}
+  s.date = %q{2010-01-30}
   s.description = %q{Models required for ToDoneIt - only really useful in conjunction with the webapp}
   s.email = %q{owen.griffin@gmail.com}
-  s.extra_rdoc_files = [
-    "LICENSE",
-     "README.rdoc"
-  ]
   s.files = [
     ".document",
      ".gitignore",
-     "LICENSE",
-     "README.rdoc",
      "Rakefile",
      "VERSION",
      "lib/todoneit-model.rb",
@@ -30,18 +24,14 @@ Gem::Specification.new do |s|
      "lib/todoneit/user.rb",
      "test/helper.rb",
      "test/test_task.rb",
-     "test/test_user.rb"
+     "test/test_user.rb",
+     "todoneit-model.gemspec"
   ]
   s.homepage = %q{http://github.com/owengriffin/todoneit-model}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
   s.summary = %q{The models required for ToDoneIt}
-  s.test_files = [
-    "test/test_task.rb",
-     "test/test_user.rb",
-     "test/helper.rb"
-  ]
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION

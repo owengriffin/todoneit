@@ -174,6 +174,27 @@ form
     min-height: 2.5em
     margin: 0.5em 0
     padding: 0.5em 
+    .priority
+      display: block
+      float: right      
+      color: #fff    
+      width: auto
+      text-align: right
+      padding: 0 2px
+      -moz-border-radius-topright: 4px
+      -moz-border-radius-bottomleft: 2px
+      margin-top: -5px
+      margin-right: -5px
+      &.priority1
+        background-color: #d00
+        border: 1px solid #d00
+      &.priority2
+        background-color: #00aad4
+        border: 1px solid #00aad4
+      &.priority3
+        background-color: #ddd
+        border: 1px solid #ddd
+        color: #222
   .incomplete .task-wrapper
     border: 1px solid #d00
   .upcoming .task-wrapper

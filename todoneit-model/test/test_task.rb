@@ -3,10 +3,11 @@ require 'helper'
 module ToDoneIt
   class TestTask < Test::Unit::TestCase
     context "model" do 
-    setup do
-      DataMapper.setup(:default, 'sqlite3::memory:')
-      DataMapper.auto_migrate!
-    end
+      setup do
+        DataMapper.setup(:default, 'sqlite3::memory:')
+        DataMapper.auto_migrate!
+#          DataMapper::Logger.new(STDOUT, :debug)        
+      end
     context "validations" do
 
       setup do
@@ -62,6 +63,30 @@ module ToDoneIt
         assert_not_nil tasks
         assert_equal 1, tasks.size
       end
+        should "list uncompleted tasks before completed" do
+          user0 = User.new({:username => "username", :password => "password"})
+          user0.save
+          task0 = Task.new({:description => "task0", :public => true, :user => user0, :due_at => Date.today})
+          task0.save
+          task1 = Task.new({:description => "task1", :public => true, :user => user0, :due_at => Date.today, :completed_at => Date.today})
+          task1.save
+          tasks = Task.today({:user => user0})
+          assert_equal 2, tasks.size
+          assert_equal task1, tasks[1]
+          assert_equal task0, tasks[0]
+        end
+        should "order tasks by priority" do
+          user0 = User.new({:username => "username", :password => "password"})
+          user0.save
+          task0 = Task.new({:description => "task0", :public => true, :user => user0, :due_at => Date.today, :priority => 2})
+          task0.save
+          task1 = Task.new({:description => "task1", :public => true, :user => user0, :due_at => Date.today, :priority => 1})
+          task1.save
+          tasks = Task.today({:user => user0})
+          assert_equal 2, tasks.size
+          assert_equal task0, tasks[1]
+          assert_equal task1, tasks[0]
+        end
         should "destroy all" do
           Task.destroy_all
           assert_equal 0, Task.all.length

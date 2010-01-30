@@ -25,6 +25,12 @@ var ToDoneIt = {
 	    $('#menu li.complete a:first').click(function() {
 		    ToDoneIt.Menu.completeSelected();
 		});
+	    $('#menu li.promote a:first').click(function() {
+		    ToDoneIt.Menu.promoteSelected();
+		});
+	    $('#menu li.relegate a:first').click(function() {
+		    ToDoneIt.Menu.relegateSelected();
+		});
 	},
 	completeSelected: function() {
 	    jQuery.each($('.task.selected'), function(element) {
@@ -44,6 +50,42 @@ var ToDoneIt = {
     }
 });
 		});
+	},
+	promoteOrRelegate: function(type) {
+jQuery.each($('.task.selected'), function(element) {
+		    var task_id = $(this).attr('id').match(/task_(.*)/)[1];
+		    $.ajax(
+{ 
+    type: 'POST',
+	dataType: 'json',
+	url: '/tasks/' + task_id + '/' + type,
+	success: function(data) {
+	var element = $('#task_' + data.task_id);
+	element.removeClass('selected');
+	element = $('#task_' + data.task_id + ' .priority');
+	if (element.hasClass('priority1') && data.priority != 1) {
+	    element.removeClass('priority1');
+	}
+	if (element.hasClass('priority2') && data.priority != 2) {
+	    element.removeClass('priority2');
+	}
+	if (element.hasClass('priority3') && data.priority != 3) {
+	    element.removeClass('priority3');
+	}
+	element.addClass('priority' + data.priority);
+	element.text(data.priority);
+	element.show();
+	ToDoneIt.Timeline.totalSelected --;
+	$('#menu .totalSelected span:first').text(ToDoneIt.Timeline.totalSelected);	    
+    }
+});
+		});
+	},
+	promoteSelected: function() {
+	    ToDoneIt.Menu.promoteOrRelegate('promote');
+	},
+	relegateSelected: function() {
+	    ToDoneIt.Menu.promoteOrRelegate('relegate');
 	}
     },
     Timeline : {

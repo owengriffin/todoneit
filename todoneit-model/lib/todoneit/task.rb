@@ -9,6 +9,7 @@ module ToDoneIt
     property :completed_at, DateTime
     property :created_at, DateTime
     property :duration, Integer
+    property :priority, Integer, :default => 99
     property :public, Boolean, :default => false
 
     belongs_to :user
@@ -43,16 +44,25 @@ module ToDoneIt
     def self.on_date(attributes, date)
       attributes[:due_at.gt] = date.to_time
       attributes[:due_at.lt] = (date + 1).to_time
+      if attributes[:order] == nil
+        attributes[:order]=[:completed_at.asc, :priority.asc, :due_at.desc, :created_at.desc]
+      end
       return Task.all(attributes)
     end
 
     def self.before_date(attributes, date)
       attributes[:due_at.lt] = date.to_time
+      if attributes[:order] == nil
+        attributes[:order]=[:completed_at.asc, :priority.asc, :due_at.desc, :created_at.desc]
+      end
       return Task.all(attributes)
     end
 
     def self.after_date(attributes, date)
       attributes[:due_at.gt] = (date + 1).to_time
+      if attributes[:order] == nil
+        attributes[:order]=[:completed_at.asc, :priority.asc, :due_at.desc, :created_at.desc]
+      end
       return Task.all(attributes)
     end
 

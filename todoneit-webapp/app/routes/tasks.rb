@@ -45,6 +45,36 @@ class Main
     end
   end
 
+  post "/tasks/:id/promote" do
+    require_login
+    task = ToDoneIt::Task.get(params[:id])
+    if task.priority > 3
+      task.priority = 3
+    else
+      task.priority = task.priority - 1 if task.priority > 1
+    end
+    if task.save
+      JSON.generate({:message => "OK", :task_id => params[:id], :priority => task.priority})
+    else
+      JSON.generate({:message => "FAIL"})
+    end
+  end
+
+  post "/tasks/:id/relegate" do
+    require_login
+    task = ToDoneIt::Task.get(params[:id])
+    if task.priority > 2
+      task.priority = 99
+    else
+      task.priority = task.priority + 1 if task.priority < 99
+    end
+    if task.save
+      JSON.generate({:message => "OK", :task_id => params[:id], :priority => task.priority})
+    else
+      JSON.generate({:message => "FAIL"})
+    end
+  end
+
   get "/tasks/deleteall" do
     @tasks = ToDoneIt::Task.all
     logger.debug "Size =#{@tasks.size}"
