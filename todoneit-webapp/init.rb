@@ -11,24 +11,25 @@ end
 require "monk/glue"
 require "json"
 require 'sinatra'
-require 'erb'
 require 'dm-core'
 require 'dm-validations'
 require 'dm-timestamps'
-
-
+#require 'sinatra/r18n'
+require "haml"
+require "sass"
+require "chronic"
+require "json"
+require "todoneit-model.rb"
 
 class Main < Monk::Glue
   set :app_file, __FILE__
-  use Rack::Session::Cookie,
-                      :key => 'rack.session',
-                      :domain => 'foo.com',
-                      :path => '/',
-                      :expire_after => 2592000,
-                      :secret => 'change_me'
+#  use Rack::Session::Cookie,
+#                      :key => 'rack.session',
+#                      :domain => 'foo.com',
+#                      :path => '/',
+#                      :expire_after => 2592000,
+#                      :secret => 'change_me'
 end
-
-
 
 # Load all application files.
 Dir[root_path("app/**/*.rb")].each do |file|
@@ -38,6 +39,5 @@ end
 # Connect to sqlite3.
 sqlite3_path = settings(:sqlite3)[:database]
 DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/#{sqlite3_path}")
-
-
+DataMapper.auto_upgrade!
 Main.run! if Main.run?
