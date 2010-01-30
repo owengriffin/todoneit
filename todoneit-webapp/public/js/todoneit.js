@@ -28,12 +28,21 @@ var ToDoneIt = {
 	},
 	completeSelected: function() {
 	    jQuery.each($('.task.selected'), function(element) {
-		    var element = $(this);
-		    element.removeClass('incomplete');
-		    element.removeClass('selected');
-		    element.addClass('complete');
-		    ToDoneIt.Timeline.totalSelected --;
-		    $('#menu .totalSelected span:first').text(ToDoneIt.Timeline.totalSelected);
+		    var task_id = $(this).attr('id').match(/task_(.*)/)[1];
+		    $.ajax(
+{ 
+    type: 'POST',
+	dataType: 'json',
+	url: '/tasks/' + task_id + '/complete',
+	success: function(data) {
+	var element = $('#task_' + data.task_id);
+	element.removeClass('incomplete');
+	element.removeClass('selected');
+	element.addClass('complete');
+	ToDoneIt.Timeline.totalSelected --;
+	$('#menu .totalSelected span:first').text(ToDoneIt.Timeline.totalSelected);	    
+    }
+});
 		});
 	}
     },

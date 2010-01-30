@@ -8478,3 +8478,615 @@ D, [2010-01-30 19:10:46#1937] DEBUG -- : Period = today
 D, [2010-01-30 19:10:46#1937] DEBUG -- : Period = tomorrow
 D, [2010-01-30 19:10:46#1937] DEBUG -- : Access = private
 D, [2010-01-30 19:10:46#1937] DEBUG -- : Access = private
+D, [2010-01-30 19:31:32#21731] DEBUG -- : Current user = 
+D, [2010-01-30 19:31:32#21731] DEBUG -- : Current user = 
+D, [2010-01-30 19:31:32#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 19:31:32#21731] DEBUG -- : Current user = 
+D, [2010-01-30 19:31:32#21731] DEBUG -- : Current user = 
+D, [2010-01-30 19:31:32#21731] DEBUG -- : Current user = 
+D, [2010-01-30 19:31:32#21731] DEBUG -- : Period = previously
+D, [2010-01-30 19:31:32#21731] DEBUG -- : Access = public
+D, [2010-01-30 19:31:32#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 19:31:32#21731] DEBUG -- : Period = today
+D, [2010-01-30 19:31:32#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 19:31:32#21731] DEBUG -- : Access = public
+D, [2010-01-30 19:31:32#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 19:31:32#21731] DEBUG -- : Access = public
+D, [2010-01-30 19:31:32#21731] DEBUG -- : Access = public
+D, [2010-01-30 19:31:32#21731] DEBUG -- : Access = public
+D, [2010-01-30 19:31:32#21731] DEBUG -- : Doing it
+D, [2010-01-30 19:31:32#21731] DEBUG -- : Tasks = []
+D, [2010-01-30 19:31:49#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:31:49#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:31:49#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:31:49#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:31:49#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:31:49#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 19:31:49#21731] DEBUG -- : Period = today
+D, [2010-01-30 19:31:49#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 19:31:49#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 19:31:49#21731] DEBUG -- : Period = previously
+D, [2010-01-30 19:31:49#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:31:49#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:31:49#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:31:49#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:31:49#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:31:49#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 19:31:49#21731] DEBUG -- : Doing it
+D, [2010-01-30 19:31:49#21731] DEBUG -- : Tasks = []
+D, [2010-01-30 19:38:52#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:38:52#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:38:52#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:38:52#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:38:52#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:38:52#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 19:38:52#21731] DEBUG -- : Period = today
+D, [2010-01-30 19:38:52#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 19:38:52#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 19:38:52#21731] DEBUG -- : Period = previously
+D, [2010-01-30 19:38:52#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:38:52#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:38:52#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:38:52#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:38:52#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:38:52#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 19:38:52#21731] DEBUG -- : Doing it
+D, [2010-01-30 19:38:52#21731] DEBUG -- : Tasks = []
+D, [2010-01-30 19:39:31#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:39:31#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:39:31#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:39:31#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:39:31#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:39:31#21731] DEBUG -- : Period = today
+D, [2010-01-30 19:39:31#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 19:39:31#21731] DEBUG -- : Period = previously
+D, [2010-01-30 19:39:31#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 19:39:31#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 19:39:31#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:39:31#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:39:31#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:39:31#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:39:31#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:39:31#21731] DEBUG -- : Doing it
+D, [2010-01-30 19:39:31#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 19:39:31#21731] DEBUG -- : Tasks = []
+D, [2010-01-30 19:39:51#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:39:51#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:39:51#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:39:51#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:39:51#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:39:51#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 19:39:51#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 19:39:52#21731] DEBUG -- : Period = previously
+D, [2010-01-30 19:39:52#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 19:39:52#21731] DEBUG -- : Period = today
+D, [2010-01-30 19:39:52#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:39:52#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:39:52#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:39:52#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:39:52#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:39:52#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 19:39:52#21731] DEBUG -- : Doing it
+D, [2010-01-30 19:39:52#21731] DEBUG -- : Tasks = []
+D, [2010-01-30 19:40:35#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:40:35#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 19:40:35#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:40:35#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 19:40:35#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:40:35#21731] DEBUG -- : Period = previously
+D, [2010-01-30 19:40:35#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:40:35#21731] DEBUG -- : Doing it
+D, [2010-01-30 19:40:35#21731] DEBUG -- : Tasks = []
+D, [2010-01-30 19:40:35#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:40:35#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:40:35#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:40:35#21731] DEBUG -- : Period = today
+D, [2010-01-30 19:40:35#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 19:40:35#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 19:40:35#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:40:35#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:40:35#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:40:40#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:40:40#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 19:40:40#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:41:19#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:41:19#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 19:41:19#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:41:28#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:41:28#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 19:41:28#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:41:28#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 19:41:28#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:41:28#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:41:28#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:41:28#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 19:41:28#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 19:41:28#21731] DEBUG -- : Period = previously
+D, [2010-01-30 19:41:28#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:41:28#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:41:28#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:41:28#21731] DEBUG -- : Doing it
+D, [2010-01-30 19:41:28#21731] DEBUG -- : Tasks = []
+D, [2010-01-30 19:41:28#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:41:28#21731] DEBUG -- : Period = today
+D, [2010-01-30 19:41:28#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:41:45#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:41:45#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 19:41:45#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:41:45#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 19:41:45#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:41:45#21731] DEBUG -- : Period = previously
+D, [2010-01-30 19:41:45#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:41:45#21731] DEBUG -- : Doing it
+D, [2010-01-30 19:41:45#21731] DEBUG -- : Tasks = []
+D, [2010-01-30 19:41:45#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:41:45#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:41:45#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 19:41:45#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 19:41:45#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:41:45#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:41:45#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:41:45#21731] DEBUG -- : Period = today
+D, [2010-01-30 19:41:45#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:41:49#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:41:49#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 19:41:49#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:42:05#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:42:05#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 19:42:05#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:43:14#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:43:14#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 19:43:14#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:43:20#21731] DEBUG -- : Current user = 
+D, [2010-01-30 19:43:20#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 19:43:20#21731] DEBUG -- : Access = public
+D, [2010-01-30 19:43:20#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 19:43:20#21731] DEBUG -- : Current user = 
+D, [2010-01-30 19:43:20#21731] DEBUG -- : Current user = 
+D, [2010-01-30 19:43:20#21731] DEBUG -- : Current user = 
+D, [2010-01-30 19:43:20#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 19:43:20#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 19:43:20#21731] DEBUG -- : Period = previously
+D, [2010-01-30 19:43:20#21731] DEBUG -- : Access = public
+D, [2010-01-30 19:43:20#21731] DEBUG -- : Access = public
+D, [2010-01-30 19:43:20#21731] DEBUG -- : Access = public
+D, [2010-01-30 19:43:20#21731] DEBUG -- : Doing it
+D, [2010-01-30 19:43:20#21731] DEBUG -- : Tasks = []
+D, [2010-01-30 19:43:20#21731] DEBUG -- : Current user = 
+D, [2010-01-30 19:43:20#21731] DEBUG -- : Period = today
+D, [2010-01-30 19:43:20#21731] DEBUG -- : Access = public
+D, [2010-01-30 19:43:23#21731] DEBUG -- : Current user = 
+D, [2010-01-30 19:43:23#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 19:43:23#21731] DEBUG -- : Access = public
+D, [2010-01-30 19:43:23#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 19:43:23#21731] DEBUG -- : Current user = 
+D, [2010-01-30 19:43:23#21731] DEBUG -- : Current user = 
+D, [2010-01-30 19:43:23#21731] DEBUG -- : Current user = 
+D, [2010-01-30 19:43:23#21731] DEBUG -- : Period = previously
+D, [2010-01-30 19:43:23#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 19:43:23#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 19:43:23#21731] DEBUG -- : Access = public
+D, [2010-01-30 19:43:23#21731] DEBUG -- : Access = public
+D, [2010-01-30 19:43:23#21731] DEBUG -- : Access = public
+D, [2010-01-30 19:43:23#21731] DEBUG -- : Doing it
+D, [2010-01-30 19:43:23#21731] DEBUG -- : Current user = 
+D, [2010-01-30 19:43:23#21731] DEBUG -- : Tasks = []
+D, [2010-01-30 19:43:23#21731] DEBUG -- : Period = today
+D, [2010-01-30 19:43:23#21731] DEBUG -- : Access = public
+D, [2010-01-30 19:44:01#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:44:01#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 19:44:01#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:44:01#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 19:44:01#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:44:01#21731] DEBUG -- : Period = previously
+D, [2010-01-30 19:44:01#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:44:01#21731] DEBUG -- : Doing it
+D, [2010-01-30 19:44:01#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 19:44:01#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:44:01#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:44:01#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 19:44:01#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 19:44:01#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:44:01#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:44:01#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:44:01#21731] DEBUG -- : Period = today
+D, [2010-01-30 19:44:01#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:45:01#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:45:01#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 19:45:01#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:45:01#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 19:45:01#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:45:01#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:45:01#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:45:01#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 19:45:01#21731] DEBUG -- : Period = today
+D, [2010-01-30 19:45:01#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 19:45:01#21731] DEBUG -- : Period = previously
+D, [2010-01-30 19:45:01#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 19:45:01#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:45:01#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:45:01#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:45:01#21731] DEBUG -- : Access = private
+D, [2010-01-30 19:45:01#21731] DEBUG -- : Doing it
+D, [2010-01-30 19:45:01#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 20:56:47#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 20:56:47#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 20:56:47#21731] DEBUG -- : Access = private
+D, [2010-01-30 20:56:47#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 20:56:47#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 20:56:47#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 20:56:47#21731] DEBUG -- : Period = previously
+D, [2010-01-30 20:56:47#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 20:56:47#21731] DEBUG -- : Access = private
+D, [2010-01-30 20:56:47#21731] DEBUG -- : Access = private
+D, [2010-01-30 20:56:47#21731] DEBUG -- : Doing it
+D, [2010-01-30 20:56:47#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 20:56:47#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 20:56:47#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 20:56:47#21731] DEBUG -- : Access = private
+D, [2010-01-30 20:56:47#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 20:56:47#21731] DEBUG -- : Period = today
+D, [2010-01-30 20:56:47#21731] DEBUG -- : Access = private
+D, [2010-01-30 20:57:11#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 20:57:11#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 20:57:11#21731] DEBUG -- : Access = private
+D, [2010-01-30 20:57:11#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 20:57:11#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 20:57:11#21731] DEBUG -- : Period = previously
+D, [2010-01-30 20:57:11#21731] DEBUG -- : Access = private
+D, [2010-01-30 20:57:11#21731] DEBUG -- : Doing it
+D, [2010-01-30 20:57:11#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 20:57:11#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 20:57:11#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 20:57:11#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 20:57:11#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 20:57:11#21731] DEBUG -- : Period = today
+D, [2010-01-30 20:57:11#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 20:57:11#21731] DEBUG -- : Access = private
+D, [2010-01-30 20:57:11#21731] DEBUG -- : Access = private
+D, [2010-01-30 20:57:11#21731] DEBUG -- : Access = private
+D, [2010-01-30 20:58:09#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 20:58:09#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 20:58:09#21731] DEBUG -- : Access = private
+D, [2010-01-30 20:58:09#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 20:58:09#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 20:58:09#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 20:58:09#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 20:58:09#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 20:58:09#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 20:58:09#21731] DEBUG -- : Period = previously
+D, [2010-01-30 20:58:09#21731] DEBUG -- : Access = private
+D, [2010-01-30 20:58:09#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 20:58:09#21731] DEBUG -- : Access = private
+D, [2010-01-30 20:58:09#21731] DEBUG -- : Access = private
+D, [2010-01-30 20:58:09#21731] DEBUG -- : Period = today
+D, [2010-01-30 20:58:09#21731] DEBUG -- : Doing it
+D, [2010-01-30 20:58:09#21731] DEBUG -- : Access = private
+D, [2010-01-30 20:58:09#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 20:59:42#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 20:59:42#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 20:59:42#21731] DEBUG -- : Access = private
+D, [2010-01-30 20:59:42#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 20:59:42#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 20:59:42#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 20:59:42#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 20:59:42#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 20:59:42#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 20:59:42#21731] DEBUG -- : Period = today
+D, [2010-01-30 20:59:42#21731] DEBUG -- : Period = previously
+D, [2010-01-30 20:59:42#21731] DEBUG -- : Access = private
+D, [2010-01-30 20:59:42#21731] DEBUG -- : Access = private
+D, [2010-01-30 20:59:42#21731] DEBUG -- : Access = private
+D, [2010-01-30 20:59:42#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 20:59:42#21731] DEBUG -- : Doing it
+D, [2010-01-30 20:59:42#21731] DEBUG -- : Access = private
+D, [2010-01-30 20:59:42#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 21:00:27#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:00:27#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 21:00:27#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:00:27#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 21:00:27#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:00:27#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:00:27#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:00:27#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:00:27#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 21:00:27#21731] DEBUG -- : Period = previously
+D, [2010-01-30 21:00:27#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 21:00:27#21731] DEBUG -- : Period = today
+D, [2010-01-30 21:00:27#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:00:27#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:00:27#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:00:27#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:00:27#21731] DEBUG -- : Doing it
+D, [2010-01-30 21:00:27#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 21:01:15#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:01:15#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 21:01:15#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:01:15#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 21:01:15#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:01:15#21731] DEBUG -- : Period = previously
+D, [2010-01-30 21:01:15#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:01:15#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:01:15#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:01:15#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 21:01:15#21731] DEBUG -- : Doing it
+D, [2010-01-30 21:01:15#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 21:01:15#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:01:15#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 21:01:15#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:01:15#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:01:15#21731] DEBUG -- : Period = today
+D, [2010-01-30 21:01:15#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:02:42#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:02:42#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 21:02:42#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:02:42#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 21:02:42#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:02:42#21731] DEBUG -- : Period = previously
+D, [2010-01-30 21:02:42#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:02:42#21731] DEBUG -- : Doing it
+D, [2010-01-30 21:02:42#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 21:02:42#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:02:42#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:02:42#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 21:02:42#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:02:42#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 21:02:42#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:02:42#21731] DEBUG -- : Period = today
+D, [2010-01-30 21:02:42#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:02:42#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:02:44#21731] DEBUG -- : Username 83
+D, [2010-01-30 21:03:20#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:03:20#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 21:03:20#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:03:20#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 21:03:20#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:03:20#21731] DEBUG -- : Period = previously
+D, [2010-01-30 21:03:20#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:03:20#21731] DEBUG -- : Doing it
+D, [2010-01-30 21:03:20#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 21:03:20#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:03:20#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:03:20#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:03:20#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 21:03:20#21731] DEBUG -- : Period = today
+D, [2010-01-30 21:03:20#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 21:03:20#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:03:20#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:03:20#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:03:23#21731] DEBUG -- : Username 83
+D, [2010-01-30 21:05:42#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:05:42#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 21:05:42#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:05:42#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 21:05:42#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:05:42#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:05:42#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:05:42#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 21:05:42#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 21:05:42#21731] DEBUG -- : Period = previously
+D, [2010-01-30 21:05:42#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:05:42#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:05:42#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:05:42#21731] DEBUG -- : Doing it
+D, [2010-01-30 21:05:42#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 21:05:42#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:05:42#21731] DEBUG -- : Period = today
+D, [2010-01-30 21:05:42#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:05:45#21731] DEBUG -- : Username 83
+D, [2010-01-30 21:08:21#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:08:21#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 21:08:21#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:08:21#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 21:08:21#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:08:21#21731] DEBUG -- : Period = previously
+D, [2010-01-30 21:08:21#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:08:21#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:08:21#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 21:08:21#21731] DEBUG -- : Doing it
+D, [2010-01-30 21:08:21#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:08:21#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 21:08:21#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:08:21#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 21:08:21#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:08:21#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:08:21#21731] DEBUG -- : Period = today
+D, [2010-01-30 21:08:21#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:10:12#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:10:12#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 21:10:12#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:10:12#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 21:10:12#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:10:12#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:10:12#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 21:10:12#21731] DEBUG -- : Period = previously
+D, [2010-01-30 21:10:12#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:10:12#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:10:12#21731] DEBUG -- : Doing it
+D, [2010-01-30 21:10:12#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 21:10:12#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:10:12#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 21:10:12#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:10:12#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:10:12#21731] DEBUG -- : Period = today
+D, [2010-01-30 21:10:12#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:10:50#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:10:50#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 21:10:50#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:10:50#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 21:10:50#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:10:50#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:10:50#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 21:10:50#21731] DEBUG -- : Period = previously
+D, [2010-01-30 21:10:50#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:10:50#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:10:50#21731] DEBUG -- : Doing it
+D, [2010-01-30 21:10:50#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 21:10:50#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:10:50#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:10:50#21731] DEBUG -- : Period = today
+D, [2010-01-30 21:10:50#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 21:10:50#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:10:50#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:11:08#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:11:08#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 21:11:08#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:11:08#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 21:11:08#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:11:09#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:11:09#21731] DEBUG -- : Period = previously
+D, [2010-01-30 21:11:09#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 21:11:09#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:11:09#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:11:09#21731] DEBUG -- : Doing it
+D, [2010-01-30 21:11:09#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 21:11:09#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:11:09#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:11:09#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 21:11:09#21731] DEBUG -- : Period = today
+D, [2010-01-30 21:11:09#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:11:09#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:12:06#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:12:06#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 21:12:06#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:12:06#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 21:12:06#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:12:06#21731] DEBUG -- : Period = previously
+D, [2010-01-30 21:12:06#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:12:06#21731] DEBUG -- : Doing it
+D, [2010-01-30 21:12:06#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 21:12:07#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:12:07#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:12:07#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:12:07#21731] DEBUG -- : Period = today
+D, [2010-01-30 21:12:07#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 21:12:07#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 21:12:07#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:12:07#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:12:07#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:12:29#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:12:29#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:12:29#21731] DEBUG -- : Period = previously
+D, [2010-01-30 21:12:29#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 21:12:29#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:12:29#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:12:29#21731] DEBUG -- : Doing it
+D, [2010-01-30 21:12:29#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 21:12:29#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 21:12:29#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:12:29#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 21:12:29#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:12:29#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:12:29#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 21:12:29#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:12:29#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:12:29#21731] DEBUG -- : Period = today
+D, [2010-01-30 21:12:29#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:12:46#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:12:46#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 21:12:46#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:12:46#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 21:12:46#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:12:46#21731] DEBUG -- : Period = previously
+D, [2010-01-30 21:12:46#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:12:46#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:12:46#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 21:12:46#21731] DEBUG -- : Doing it
+D, [2010-01-30 21:12:46#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:12:46#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 21:12:46#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:12:46#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 21:12:46#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:12:46#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:12:46#21731] DEBUG -- : Period = today
+D, [2010-01-30 21:12:46#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:13:26#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:13:26#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 21:13:26#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:13:26#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 21:13:26#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:13:26#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:13:26#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:13:26#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:13:26#21731] DEBUG -- : Period = previously
+D, [2010-01-30 21:13:26#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 21:13:26#21731] DEBUG -- : Period = today
+D, [2010-01-30 21:13:26#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 21:13:26#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:13:26#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:13:26#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:13:26#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:13:26#21731] DEBUG -- : Doing it
+D, [2010-01-30 21:13:26#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 21:13:45#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:13:45#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 21:13:45#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:13:45#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 21:13:45#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:13:45#21731] DEBUG -- : Period = previously
+D, [2010-01-30 21:13:45#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:13:45#21731] DEBUG -- : Doing it
+D, [2010-01-30 21:13:45#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:13:45#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 21:13:45#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 21:13:45#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:13:45#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:13:45#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:13:45#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 21:13:45#21731] DEBUG -- : Period = today
+D, [2010-01-30 21:13:45#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:13:45#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:15:26#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:15:26#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 21:15:26#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:15:26#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 21:15:26#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:15:26#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:15:26#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:15:26#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 21:15:26#21731] DEBUG -- : Period = previously
+D, [2010-01-30 21:15:26#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 21:15:26#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:15:26#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:15:26#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:15:26#21731] DEBUG -- : Doing it
+D, [2010-01-30 21:15:26#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 21:15:26#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:15:26#21731] DEBUG -- : Period = today
+D, [2010-01-30 21:15:26#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:15:38#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:15:38#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 21:15:38#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:15:38#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 21:15:38#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:15:38#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:15:38#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:15:38#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:15:38#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 21:15:38#21731] DEBUG -- : Period = today
+D, [2010-01-30 21:15:38#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 21:15:38#21731] DEBUG -- : Period = previously
+D, [2010-01-30 21:15:38#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:15:38#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:15:38#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:15:38#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:15:38#21731] DEBUG -- : Doing it
+D, [2010-01-30 21:15:38#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 21:15:45#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:15:45#21731] DEBUG -- : Period = sometime
+D, [2010-01-30 21:15:45#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:15:45#21731] DEBUG -- : 2010 00 31
+D, [2010-01-30 21:15:45#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:15:45#21731] DEBUG -- : Period = previously
+D, [2010-01-30 21:15:45#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:15:45#21731] DEBUG -- : Doing it
+D, [2010-01-30 21:15:45#21731] DEBUG -- : Tasks = [#<ToDoneIt::Task @id=103 @description=<not loaded> @due_at=#<DateTime: 2455225,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=104 @description=<not loaded> @due_at=#<DateTime: 2455224,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=105 @description=<not loaded> @due_at=#<DateTime: 2455223,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=106 @description=<not loaded> @due_at=#<DateTime: 2455222,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>, #<ToDoneIt::Task @id=107 @description=<not loaded> @due_at=#<DateTime: 2455221,0,2299161> @completed_at=nil @created_at=#<DateTime: 212131640599/86400,0,2299161> @duration=nil @public=false @user_id=92>]
+D, [2010-01-30 21:15:46#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:15:46#21731] DEBUG -- : Period = yesterday
+D, [2010-01-30 21:15:46#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:15:46#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:15:46#21731] DEBUG -- : Period = tomorrow
+D, [2010-01-30 21:15:46#21731] DEBUG -- : Access = private
+D, [2010-01-30 21:15:46#21731] DEBUG -- : Current user = owengriffin
+D, [2010-01-30 21:15:46#21731] DEBUG -- : Period = today
+D, [2010-01-30 21:15:46#21731] DEBUG -- : Access = private

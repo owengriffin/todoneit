@@ -34,6 +34,17 @@ class Main
     end
   end
 
+  post "/tasks/:id/complete" do
+    require_login
+    task = ToDoneIt::Task.get(params[:id])
+    task.completed_at="now"
+    if task.save
+      JSON.generate({:message => "OK", :task_id => params[:id]})
+    else
+      JSON.generate({:message => "FAIL"})
+    end
+  end
+
   get "/tasks/deleteall" do
     @tasks = ToDoneIt::Task.all
     logger.debug "Size =#{@tasks.size}"
