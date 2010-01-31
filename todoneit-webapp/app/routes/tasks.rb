@@ -18,6 +18,21 @@ class Main
     end
   end
 
+  post "/tasks/quickadd" do
+    accept_login_or_signup
+    
+
+    @task = ToDoneIt::Task.quickadd(params[:description])
+    current_user.tasks << @task
+    
+    if @task.save
+      session[:notice] = "Your task has been added"
+      redirect "/"
+    else
+      haml :"tasks/new"
+    end
+  end
+
   get "/tasks/:id/delete" do
     require_login
     @task = ToDoneIt::Task[params[:id]]
@@ -85,11 +100,8 @@ class Main
 
   get "/tasks/timeline/:access/:period" do
     message = "No items found"
-    logger.debug "Current user = #{current_user}"
     tasks = []
     pub = params[:access] == "public"
-    logger.debug "Period = #{params[:period]}"
-    logger.debug "Access = #{params[:access]}"
     if params[:period] == "today"
       if pub
         tasks = ToDoneIt::Task.today({:public => true})

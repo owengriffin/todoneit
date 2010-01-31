@@ -18,7 +18,7 @@ module ToDoneIt
     validates_present :public
     
     def due_at=(value)
-      attribute_set(:due_at, Chronic.parse(value))
+        attribute_set(:due_at, Chronic.parse(value))
     end
 
     def completed_at=(value)
@@ -27,6 +27,16 @@ module ToDoneIt
 
     def complete?
       completed_at != nil and completed_at.to_time < Time.now
+    end
+
+    def self.quickadd(description)
+      match = description.match(/(.*)((?:tomorrow|yesterday|today|(?:[0-9]{1,2}\/[0-9]{1,2}\/[0-9]{1,4}))(?: at [0-9]+(?:am|pm))?)(.*)/i)
+      if match and match.length > 1
+        task = Task.new({:description => (match[1] + (match[3].empty? ? "" : " " + match[3])).strip, :due_at => match[2]})
+      else
+        task = Task.new({:description => description})
+      end
+      return task
     end
 
     def self.today(attributes)

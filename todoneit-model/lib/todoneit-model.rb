@@ -11,6 +11,7 @@ require 'logger'
 
 $: << File.expand_path(File.dirname(__FILE__) + "/../lib")
 
+require 'todoneit/time.rb'
 require 'todoneit/date.rb'
 require 'todoneit/user.rb'
 require 'todoneit/task.rb'

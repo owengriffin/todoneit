@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Owen Griffin"]
-  s.date = %q{2010-01-30}
+  s.date = %q{2010-01-31}
   s.description = %q{Models required for ToDoneIt - only really useful in conjunction with the webapp}
   s.email = %q{owen.griffin@gmail.com}
   s.files = [

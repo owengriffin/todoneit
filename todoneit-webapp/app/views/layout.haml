@@ -60,10 +60,10 @@
       %h1 
         =session[:title]
         - if logged_in?
-          %form{:action => "/tasks/new", :method => "post", :id => "quickadd", :name => "quickadd"}
+          %form{:action => "/tasks/quickadd", :method => "post", :id => "quickadd", :name => "quickadd"}
             %label
               Forgot something?
-              %input.helptext{:value => "Describe a task here", :name => "task[description]", :id => "task[description]"}/
+              %input.helptext{:value => "Describe a task here", :name => "description", :id => "task[description]"}/
             %input{:value => "tomorrow", :name => "task[due_at]", :type => "hidden"}/
 
       != yield
