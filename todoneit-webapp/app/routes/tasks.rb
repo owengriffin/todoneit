@@ -48,7 +48,7 @@ class Main
   post "/tasks/:id/promote" do
     require_login
     task = ToDoneIt::Task.get(params[:id])
-    if task.priority > 3
+    if task.priority == nil or task.priority > 3
       task.priority = 3
     else
       task.priority = task.priority - 1 if task.priority > 1
