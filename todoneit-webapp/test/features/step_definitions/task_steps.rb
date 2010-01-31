@@ -10,11 +10,11 @@ Given /^I have a task called "([^\"]*)" due ([^\"]*)/ do |name, due_at|
 end
 
 And /^I select the task "([^\"]*)"/ do |name|
-  $browser.div(:text => name).click
+  $browser.span(:text => name).click
 end
 
 And /^the task "([^\"]*)" has the class "([^\"]*)"/ do |name, class_name|
-  fail if not $browser.div(:text => name).parent.class_name.include? class_name
+  fail if not $browser.span(:text => name).parent.parent.class_name.include? class_name
 end
 
 And /^the menu is displayed/ do 

@@ -5,10 +5,10 @@
   - if tasks != nil and not tasks.empty?
     %ul
       - tasks.each do |task|
-        %li{:id => "task_#{task.id}", :class => (task.due_at.to_time < Time.new ? "past" : "upcoming") + " " + (task.complete? ? "complete" : "incomplete") + " task"}
+        %li{:id => "task_#{task.id}", :class => (task.due_at.to_time < Time.new ? "past" : "upcoming") + " " + (task.complete? ? "complete" : "incomplete") + " priority#{task.priority} task"}
           %div.task-wrapper
             %span.description= task.description
-            %span.priority{:class => "priority#{task.priority}", :style => (task.priority != nil and task.priority > 0 and task.priority < 10 ? "" : "display: none")}= task.priority
+            %span.priority{:style => (task.priority != nil and task.priority > 0 and task.priority < 10 ? "" : "display: none")}= task.priority
   - else
     %p.empty
       = message

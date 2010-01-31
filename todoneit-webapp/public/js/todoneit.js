@@ -62,7 +62,7 @@ jQuery.each($('.task.selected'), function(element) {
 	success: function(data) {
 	var element = $('#task_' + data.task_id);
 	element.removeClass('selected');
-	element = $('#task_' + data.task_id + ' .priority');
+	element = $('#task_' + data.task_id);
 	if (element.hasClass('priority1') && data.priority != 1) {
 	    element.removeClass('priority1');
 	}
@@ -73,6 +73,7 @@ jQuery.each($('.task.selected'), function(element) {
 	    element.removeClass('priority3');
 	}
 	element.addClass('priority' + data.priority);
+	element = $('#task_' + data.task_id + ' .priority');
 	element.text(data.priority);
 	element.show();
 	ToDoneIt.Timeline.totalSelected --;
